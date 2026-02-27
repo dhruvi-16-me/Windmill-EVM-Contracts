@@ -5,7 +5,12 @@ on:
     tags:
       - "v*.*.*"
   workflow_dispatch:
-
+     workflow_dispatch:
+     inputs:
+      version:
+        description: 'Version tag (e.g., v1.0.0) - leave empty for branch-based artifacts'
+        required: false
+        type: string
 permissions:
   contents: write
 

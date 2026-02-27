@@ -200,10 +200,13 @@ This repository includes baseline workflows for Solidity contract projects:
 The repo ships with public RPC endpoints in `foundry.toml` for:
 `ethereum`, `ethereum_classic`, `bsc`, `base`, `polygon`, `avalanche`, `sepolia`, `mordor`.
 
-For deploy and verification flows, copy `.env.example` to `.env` and set values for:
+For deploy flows, copy `.env.example` to `.env` and set values for:
 
 - `PRIVATE_KEY`
 - `ETHERSCAN_API_KEY`
+
+Contract verification is preconfigured for `mainnet` and `sepolia` in `foundry.toml`.
+For other chains, add the corresponding explorer configuration first.
 
 If you need higher reliability or rate limits, replace the RPC URLs in `foundry.toml` with your own provider endpoints.
 

@@ -29,9 +29,6 @@ jobs:
         uses: foundry-rs/foundry-toolchain@v1
         with:
           version: "1.5.1"
-
-      - name: Install dependencies
-        run: forge install foundry-rs/forge-std
-
+          
       - name: Run deep fuzz tests
         run: forge test --fuzz-runs 10000 --invariant-runs 1000 -vvv

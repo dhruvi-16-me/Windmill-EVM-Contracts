@@ -8,6 +8,7 @@ on:
       - "test/**"
       - "script/**"
       - "foundry.toml"
+      - ".gas-snapshot"
       - ".github/workflows/gas-snapshot.yml"
   push:
     branches: [main]
@@ -16,7 +17,9 @@ on:
       - "test/**"
       - "script/**"
       - "foundry.toml"
+      - ".gas-snapshot"
       - ".github/workflows/gas-snapshot.yml"
+    branches: [main]
   workflow_dispatch:
 
 permissions:

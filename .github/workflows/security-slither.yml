@@ -5,14 +5,12 @@ on:
     branches: [main]
     paths:
       - "src/**"
-      - "script/**"
       - "foundry.toml"
       - ".github/workflows/security-slither.yml"
   push:
     branches: [main]
     paths:
       - "src/**"
-      - "script/**"
       - "foundry.toml"
       - ".github/workflows/security-slither.yml"
   # Weekly scheduled scan catches issues even when no PR triggers it.
@@ -48,7 +46,7 @@ jobs:
 
       # Uses Trail of Bits' maintained action.
       - name: Run Slither
-        uses: crytic/slither-action@v0.4.1
+        uses: crytic/slither-action@v0.4.2
         with:
           target: "."
           slither-args: --filter-paths "lib|test|script|broadcast|cache|out"
