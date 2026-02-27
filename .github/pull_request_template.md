@@ -48,7 +48,7 @@ Fixes #(TODO: issue number)
 - [ ] If applicable, I have made corresponding changes or additions to tests.
 - [ ] My changes generate no new warnings or errors.
 - [ ] I have joined the Stability Nexus's [Discord server](https://discord.gg/eqYhuFzuKN) and I will share a link to this PR with the project maintainers there.
-- [ ] I have read the [Contribution Guidelines](../CONTRIBUTING.md).
+- [ ] I have read the [Contribution Guidelines](CONTRIBUTING.md).
 - [ ] Once I submit my PR, CodeRabbit AI will automatically review it and I will address CodeRabbit's comments.
 - [ ] I reviewed contract access control and authorization paths.
 - [ ] I reviewed reentrancy/external-call ordering where relevant.
