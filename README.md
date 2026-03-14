@@ -70,8 +70,6 @@ TODO: List your main features here:
 
 TODO: In the checklist below, mark the items that have been completed and delete items that are not applicable to the current project:
 
-- [ ] The project has a logo.
-- [ ] The project has a favicon.
 - [ ] The protocol:
   - [ ] has been described and formally specified in a paper.
   - [ ] has had its main properties mathematically proven.
@@ -87,18 +85,6 @@ TODO: In the checklist below, mark the items that have been completed and delete
       - [ ] Polygon
       - [ ] BSC
       - [ ] Base
-- [ ] The mobile app:
-  - [ ] has an _About_ page containing the Stability Nexus's logo and pointing to the social media accounts of the Stability Nexus.
-  - [ ] is available for download as a release in this repo.
-  - [ ] is available in the relevant app stores.
-- [ ] The web frontend:
-  - [ ] has proper title and metadata.
-  - [ ] has proper open graph metadata, to ensure that it is shown well when shared in social media (Discord, Telegram, Twitter, LinkedIn).
-  - [ ] has a footer, containing the Stability Nexus's logo and pointing to the social media accounts of the Stability Nexus.
-  - [ ] is fully static and client-side.
-  - [ ] is deployed to GitHub Pages via a GitHub Workflow.
-  - [ ] is accessible through the <https://TODO:PROJECT-NAME.stability.nexus> domain.
-- [ ] the project is listed in [https://stability.nexus/protocols](https://stability.nexus/protocols).
 
 ---
 
@@ -338,35 +324,6 @@ forge script script/Deploy.s.sol \
 
 ---
 
-## 🔄 User Flow
-
-TODO: Add user flow diagrams showing how users interact with your application
-
-```text
-[User Flow Diagram Placeholder]
-```
-
-### Key User Journeys
-
-TODO: Document main user flows:
-
-1. **User Journey 1**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
-2. **User Journey 2**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
-3. **User Journey 3**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
----
-
 ## Supported Networks
 
 Pre-configured RPC endpoints in `foundry.toml`. Each mainnet has a corresponding official token list maintained in the [StabilityNexus/TokenList](https://github.com/StabilityNexus/TokenList) repository.
@@ -413,16 +370,6 @@ Pre-configured RPC endpoints in `foundry.toml`. Each mainnet has a corresponding
 - Deep fuzz runs nightly to catch edge cases
 
 > Found a vulnerability? Please **do not open a public issue**. Contact the Stability Nexus team privately via [Discord](https://discord.gg/YzDKeEfWtS) or [Telegram](https://t.me/StabilityNexus).
-
----
-
-## 📱 App Screenshots
-
-TODO: Add screenshots showcasing your application
-
-|  |  |  |
-|---|---|---|
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
 
 ---
 
