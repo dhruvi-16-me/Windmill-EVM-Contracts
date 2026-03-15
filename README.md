@@ -77,14 +77,11 @@ TODO: In the checklist below, mark the items that have been completed and delete
 - [ ] The smart contracts:
   - [ ] were thoroughly reviewed by at least two knights of The Stable Order.
   - [ ] were deployed to:
-    - [ ] Ergo
-    - [ ] Cardano
-    - [ ] EVM Chains:
-      - [ ] Ethereum Classic
-      - [ ] Ethereum
-      - [ ] Polygon
-      - [ ] BSC
-      - [ ] Base
+    - [ ] Ethereum Classic
+    - [ ] Ethereum
+    - [ ] Polygon
+    - [ ] BSC
+    - [ ] Base
 
 ---
 
